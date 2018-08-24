@@ -305,13 +305,6 @@ client2.on('guildMemberAdd',async member => {
 
   member.guild.channels.get("481942220191170580").send(`** Welcome To __Dynasty__ Server , Have a precious time**. :tada:`);
 });
-const ytdl = require("ytdl-core");
-const { Client, Util } = require('discord.js');
-const getYoutubeID = require('get-youtube-id');
-const fetchVideoInfo = require('youtube-info');
-const YouTube = require('simple-youtube-api');
-const youtube = new YouTube("AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8");
-const queue = new Map();
 
 /*
 البكجآت
