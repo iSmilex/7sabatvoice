@@ -322,7 +322,7 @@ client2.on('ready', () => {
     console.log(`[Codes] ${client.users.size}`)
 });
 //by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
-const prefix = "hema-"
+const prefix = "222"
 client2.on('message', async msg => { // eslint-disable-line
 	if (msg.author.bot) return undefined;
 	//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
