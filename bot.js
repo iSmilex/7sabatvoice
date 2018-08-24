@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const first = new Discord.Client();
 
-first.channels.get("482239001173164042").join();
+first.channels.get("482239001173164042").connect();
 
 client.on('guildMemberAdd',async member => {
   if(member.guild.id !== '468167578855014411') return;
@@ -20,6 +20,6 @@ client.on('guildMemberAdd',async member => {
 });
 
 
-second.channels.get("482238987344543755").join();
+second.channels.get("482238987344543755").connect();
 
 second.login("NDgyNDAwNjA5ODI0NDA3NjEw.DmEXQA.q6XMDxgz7-uVdStJaiuMOChuwNA");
