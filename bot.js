@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 
 client.on('ready',async () => {
-client.channels.find(f => f.id === "482238021069176832" && f.type === 'voice').join();
+client.channels.find(f => f.id === "482238021069176832" && f.type === 'voice').connect();
 });
 
 client.on('guildMemberAdd',async member => {
@@ -22,7 +22,7 @@ client2.on('guildMemberAdd',async member => {
 });
 
 client2.on('ready',async () => {
-client2.channels.find(f => f.id === "482238021069176832" && f.type === 'voice').join();
+client2.channels.find(f => f.id === "482238021069176832" && f.type === 'voice').connect();
 });
 
 client2.login("NDgyNDAwNjA5ODI0NDA3NjEw.DmEXQA.q6XMDxgz7-uVdStJaiuMOChuwNA");
