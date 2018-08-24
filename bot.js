@@ -24,8 +24,8 @@ client.on('ready', () => {
     console.log(`in ${client.guilds.size} servers `)
     console.log(`[Codes] ${client.users.size}`)
 });
-//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
-const prefix = "111"
+//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER
+let prefix = "111"
 client.on('message', async msg => { // eslint-disable-line
 	if (msg.author.bot) return undefined;
 	//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
@@ -322,7 +322,7 @@ client2.on('ready', () => {
     console.log(`[Codes] ${client.users.size}`)
 });
 //by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
-const prefix = "222"
+let prefix = "222"
 client2.on('message', async msg => { // eslint-disable-line
 	if (msg.author.bot) return undefined;
 	//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
