@@ -23,7 +23,7 @@ client.on('ready', () => {
     console.log(`[Codes] ${client.users.size}`)
 });
 //by ,$ ReBeL ء , 🔕#4777 'CODES SERVER
-let prefix = "111"
+var prefix = "111"
 client.on('message', async msg => { // eslint-disable-line
 	if (msg.author.bot) return undefined;
 	//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
@@ -313,6 +313,8 @@ npm install youtube-info
 npm install simple-youtube-api
 npm install queue
 */
+
+var prefix = "222"
 
 client2.on('ready', () => {
     console.log(`in ${client.guilds.size} servers `)
