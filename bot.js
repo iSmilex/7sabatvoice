@@ -19,7 +19,6 @@ npm install queue
 */
 
 client.on('ready', () => {
-    console.log(`Logged in as ${client.user.tag}!`);
     console.log(`in ${client.guilds.size} servers `)
     console.log(`[Codes] ${client.users.size}`)
 });
@@ -316,7 +315,6 @@ npm install queue
 */
 
 client2.on('ready', () => {
-    console.log(`Logged in as ${client.user.tag}!`);
     console.log(`in ${client.guilds.size} servers `)
     console.log(`[Codes] ${client.users.size}`)
 });
